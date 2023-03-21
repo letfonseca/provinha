@@ -1,0 +1,112 @@
+*{
+	box-sizing: border-box;
+ }
+
+header{
+	background-color: rgb(90, 38, 105);
+	height: 4em;
+	color: #FFF;
+	margin-bottom: 1em;
+    text-align: center; 
+}
+header h1{
+	font-size: 2em;
+	display:inline-block;
+	vertical-align:	middle;
+}
+header h2{
+    font-size: 3em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header .container:before{
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.tabela{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+section{
+	margin: 2em 0;
+	overflow: hidden;
+}
+
+section h2{
+    font-size: 2em;
+    display: block;
+    padding-bottom: .5em;
+    border-bottom: 1px solid rgb(108, 92, 92);
+    margin-bottom: .5em;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    margin-bottom: .5em;
+    table-layout: fixed;
+}
+td, th{
+    padding: .7em;
+    margin:  0;
+    border: 1px solid #ccc;
+}
+
+th{
+	font-weight: bold;
+	background-color: #EEE;
+}
+
+label{
+    color: rgb(13, 12, 11);
+    display: block;
+    margin-bottom: .2em;
+}
+
+.campo{
+    margin: 0;
+    padding-bottom: 1em;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: .7em;
+}
+.campo-medio{
+    display: inline-block;
+    padding-right: .5em;
+}
+.uniao{
+    width: 32%;
+    display: inline-block;
+    padding: 10px 0px;
+}
+.adicionar-roupa{
+    margin-top: 30px;
+}
+.campo-invalido{
+    border: 1px solid red;
+}
+.roupa-invalida{
+    background-color: lightcoral;
+}
+#mensagem-erro{
+    color: red;
+}
+.fadeOut {
+	opacity: 0;
+	transition: 0.5s;
+}
+#filtrar-tabela{
+    width: 200px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+.invisivel{
+    display: none;
+}
