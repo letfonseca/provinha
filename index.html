@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>provinha</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
+
 <body>
     <header>
         <div class="titulo">
@@ -15,61 +18,61 @@
         </div>
     </header>
     <main>
-      <section class="tabela">
-        <ul id="mensagens-erro"></ul>
-        <h2>Roupas em Estoque</h2>
-          <table class="table border">
-            <thead class="bg-body-secondary">
-                <tr>
-                    <th>Roupa</th>
-                    <th>tamanho</th>
-                    <th>Cor</th>
-                    <th>Preço</th>
-                    <th>Estoque</th>
-                </tr>
-            </thead>
-            <tbody id="tabela-roupas">
-                <tr class="roupa" id="primeira-roupa">
-                    <td class="info-nome">Calça</td>
-                    <td class="info-tamanho">P, G</td>
-                    <td class="info-cor">Azul</td>
-                    <td class="info-preco">R$150,00</td>
-                    <td class="info-estoque">4</td>
-                </tr>
-            
-                <tr class="roupa">
-                    <td class="info-nome">Cropped</td>
-                    <td class="info-tamanho">PP</td>
-                    <td class="info-cor">Branco</td>
-                    <td class="info-preco">R$55,00</td>
-                    <td class="info-estoque">2</td>
-                </tr>
+        <section class="tabela">
+            <ul id="mensagens-erro"></ul>
+            <h2>Roupas em Estoque</h2>
+            <table class="table border">
+                <thead class="bg-body-secondary">
+                    <tr>
+                        <th>Roupa</th>
+                        <th>tamanho</th>
+                        <th>Cor</th>
+                        <th>Preço</th>
+                        <th>Estoque</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-roupas">
+                    <tr class="roupa" id="primeira-roupa">
+                        <td class="info-nome">Calça</td>
+                        <td class="info-tamanho">P, G</td>
+                        <td class="info-cor">Azul</td>
+                        <td class="info-preco">R$150,00</td>
+                        <td class="info-estoque">4</td>
+                    </tr>
 
-                <tr class="roupa">
-                    <td class="info-nome">Vestido</td>
-                    <td class="info-tamanho">G</td>
-                    <td class="info-cor">Rose</td>
-                    <td class="info-preco">R$90,00</td>
-                    <td class="info-estoque">1</td>
-                </tr>
-           
-                <tr class="roupa">
-                    <td class="info-nome">Moletom</td>
-                    <td class="info-tamanho">P, M, GG</td>
-                    <td class="info-cor">Preto Básico</td>
-                    <td class="info-preco">R$95,00</td>
-                    <td class="info-estoque">4</td>
-                </tr>
-            </tbody>
-          </table>
-      </section>
-      <div>
-        <p>vendas do dia</p>
-        <p class="soma">0</p>
-      </div>
+                    <tr class="roupa">
+                        <td class="info-nome">Cropped</td>
+                        <td class="info-tamanho">PP</td>
+                        <td class="info-cor">Branco</td>
+                        <td class="info-preco">R$55,00</td>
+                        <td class="info-estoque">2</td>
+                    </tr>
+
+                    <tr class="roupa">
+                        <td class="info-nome">Vestido</td>
+                        <td class="info-tamanho">G</td>
+                        <td class="info-cor">Rose</td>
+                        <td class="info-preco">R$90,00</td>
+                        <td class="info-estoque">1</td>
+                    </tr>
+
+                    <tr class="roupa">
+                        <td class="info-nome">Moletom</td>
+                        <td class="info-tamanho">P, M, GG</td>
+                        <td class="info-cor">Preto Básico</td>
+                        <td class="info-preco">R$95,00</td>
+                        <td class="info-estoque">4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <div>
+            <p>vendas do dia</p>
+            <p class="soma">0</p>
+        </div>
     </main>
 
-      <section class="titulo">
+    <section class="titulo">
         <h2 class="titulo-form">Venda sua Roupa aqui</h2>
         <ul id="mensagem-erro"></ul>
         <form id="adiciona-form">
@@ -79,7 +82,8 @@
             </div>
             <div class="uniao">
                 <label for="tamanho">Tamanho:</label>
-                <input id="tamanho" name="tamanho" type="tamanho" placeholder="digite o tamanho" class="campo campo-medio">
+                <input id="tamanho" name="tamanho" type="tamanho" placeholder="digite o tamanho"
+                    class="campo campo-medio">
             </div>
 
             <div class="uniao">
@@ -89,21 +93,26 @@
 
             <div class="uniao">
                 <label for="preco">Preço:</label>
-                <input id="preco" name="preco" type="preco" placeholder="digite a cor do produto" class="campo campo-medio">
+                <input id="preco" name="preco" type="preco" placeholder="digite a cor do produto"
+                    class="campo campo-medio">
             </div>
             <div class="uniao">
                 <label for="estoque">Estoque:</label>
-                <input id="estoque" name="estoque" type="estoque" placeholder="digite a quantidade disponível" class="campo campo-medio">
+                <input id="estoque" name="estoque" type="estoque" placeholder="digite a quantidade disponível"
+                    class="campo campo-medio">
             </div>
-            <button id="adicionar-roupa"  class="btn btn-primary">Colocar a Venda</button>
+            <button id="adicionar-roupa" class="btn btn-primary">Colocar a Venda</button>
         </form>
-        
-      </section>
-  
-  
-       <script src="form.js"></script>
-       <script src="removerCadastro.js"></script>
-       <script src="calculaSoma.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    </section>
+
+
+    <script src="form.js"></script>
+    <script src="removerCadastro.js"></script>
+    <script src="calculaSoma.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

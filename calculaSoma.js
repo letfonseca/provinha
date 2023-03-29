@@ -14,6 +14,6 @@ for (let i = 0; i <= roupa.length; i++) {
 
 
     soma = soma + estoque
-    
-    camposoma.textContent=soma
+
+    camposoma.textContent = soma
 }
